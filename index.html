@@ -183,8 +183,12 @@
     .commercial-card li::before { content: '\2014  '; color: var(--fog-accent); }
     .commercial-card .price { font-weight: 600; color: var(--text-muted); font-size: 0.88rem; }
 
-    .about-content { max-width: 720px; }
+    .about-grid { display: grid; grid-template-columns: 1fr 380px; gap: 48px; align-items: start; }
+    .about-content { }
     .about-content p { margin-bottom: 20px; color: var(--text-secondary); }
+    .about-image { border-radius: 12px; overflow: hidden; position: sticky; top: 88px; }
+    .about-image img { width: 100%; display: block; border-radius: 12px; }
+    @media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; } .about-image { max-width: 400px; } }
     .cert-list { list-style: none; margin-top: 24px; }
     .cert-list li {
       padding: 8px 0; font-size: 0.92rem; color: var(--text-secondary);
@@ -225,14 +229,23 @@
     .contact-form select:focus { border-color: var(--fog-accent); outline: none; }
     .contact-form textarea { min-height: 120px; resize: vertical; }
 
-    .gallery-placeholder {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 40px;
+    .gallery-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 40px;
     }
     .gallery-item {
-      background: var(--surface-raised); border: 1px solid var(--border);
-      border-radius: 12px; height: 220px;
-      display: flex; align-items: center; justify-content: center;
-      color: var(--text-muted); font-size: 0.88rem;
+      position: relative; border-radius: 12px; overflow: hidden;
+      aspect-ratio: 4 / 3;
+    }
+    .gallery-item img {
+      width: 100%; height: 100%; object-fit: cover;
+      display: block; transition: transform 0.4s ease;
+    }
+    .gallery-item:hover img { transform: scale(1.04); }
+    .gallery-caption {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      padding: 12px 16px;
+      background: linear-gradient(0deg, rgba(11,17,32,0.82), transparent);
+      font-size: 0.85rem; font-weight: 600; color: var(--text-primary);
     }
 
     .warranty-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-top: 40px; }
@@ -456,6 +469,7 @@
   <div class="container">
     <div class="section-label">About</div>
     <h2 class="section-title">We Make Fog. Really, Really Good Fog.</h2>
+    <div class="about-grid">
     <div class="about-content">
       <p>Nimbus Ground Effects was founded in 2019 by Marcus Bellweather, a mechanical systems engineer who spent over a decade designing atmospheric effects for theme parks and public attractions. After building fog systems for three major entertainment venues and two botanical garden installations, Marcus saw an opportunity to bring the same technology to residential and boutique commercial clients.</p>
       <p>What started as a one-person operation in a garage in Argyle, Texas, has grown into a full-service fog engineering company with a team of experienced technicians, over a hundred successful installations, and a reputation for doing things right.</p>
@@ -472,6 +486,10 @@
       </ul>
       <h3 style="margin-top: 36px; margin-bottom: 8px; font-size: 1.1rem;">Service Area</h3>
       <p>We serve the entire Dallas-Fort Worth metroplex and surrounding areas. If you&rsquo;re in DFW, we can get to you.</p>
+    </div>
+    <div class="about-image">
+      <img src="about-installer.png" alt="Nimbus Ground Effects technician configuring a fog system control unit" loading="lazy">
+    </div>
     </div>
   </div>
 </section>
@@ -534,13 +552,27 @@
     <div class="section-label">Portfolio</div>
     <h2 class="section-title">See What Fog Can Do</h2>
     <p class="section-subtitle">Every project is different. Every fog system is custom-designed for the property. Here are some of our favorite installations across the DFW area.</p>
-    <div class="gallery-placeholder">
-      <div class="gallery-item">Installation Photo Coming Soon</div>
-      <div class="gallery-item">Installation Photo Coming Soon</div>
-      <div class="gallery-item">Installation Photo Coming Soon</div>
-      <div class="gallery-item">Installation Photo Coming Soon</div>
-      <div class="gallery-item">Installation Photo Coming Soon</div>
-      <div class="gallery-item">Installation Photo Coming Soon</div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="gallery-walkway.png" alt="Ground fog rolling across a residential stone garden path at dusk" loading="lazy">
+        <div class="gallery-caption">Residential Garden Path</div>
+      </div>
+      <div class="gallery-item">
+        <img src="gallery-pool.png" alt="Low-lying fog drifting across a pool deck at twilight" loading="lazy">
+        <div class="gallery-caption">Pool Deck at Dusk</div>
+      </div>
+      <div class="gallery-item">
+        <img src="gallery-led.png" alt="Premium fog system with purple and teal RGBW LED ground lighting at night" loading="lazy">
+        <div class="gallery-caption">Premium System with RGBW Lighting</div>
+      </div>
+      <div class="gallery-item">
+        <img src="gallery-wedding.png" alt="Ground fog beneath tables at an outdoor wedding reception under string lights" loading="lazy">
+        <div class="gallery-caption">Outdoor Wedding Reception</div>
+      </div>
+      <div class="gallery-item">
+        <img src="gallery-restaurant.png" alt="Fog rolling across a restaurant patio with string lights and diners" loading="lazy">
+        <div class="gallery-caption">Restaurant Patio</div>
+      </div>
     </div>
     <p style="margin-top: 20px; font-size: 0.85rem; color: var(--text-muted); text-align: center; font-style: italic;">Homeowner names and addresses withheld for privacy. All photos used with permission.</p>
   </div>
