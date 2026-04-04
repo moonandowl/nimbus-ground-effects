@@ -248,6 +248,9 @@
       font-size: 0.85rem; font-weight: 600; color: var(--text-primary);
     }
 
+    .full-bleed-image { width: 100%; overflow: hidden; line-height: 0; }
+    .full-bleed-image img { width: 100%; display: block; object-fit: cover; max-height: 480px; }
+
     .warranty-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-top: 40px; }
     .warranty-card {
       background: var(--surface-raised); border: 1px solid var(--border);
@@ -402,6 +405,10 @@
     </div>
   </div>
 </section>
+
+<div class="full-bleed-image">
+  <img src="banner-residential.png" alt="Modern DFW home with ground fog system illuminated by landscape lighting at night" loading="lazy">
+</div>
 
 <section id="residential">
   <div class="container">
