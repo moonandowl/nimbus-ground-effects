@@ -1,0 +1,19 @@
+{
+  "dataset": "changelog",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "date": "2026-04-01T00:00:00Z",
+      "type": "initial_publication",
+      "summary": "Initial VyKNG pack publication for Nimbus Ground Effects",
+      "changes": [
+        {
+          "dataset": "all",
+          "field": "all",
+          "action": "created",
+          "detail": "Complete initial dataset population across all six dataset categories"
+        }
+      ]
+    }
+  ]
+}

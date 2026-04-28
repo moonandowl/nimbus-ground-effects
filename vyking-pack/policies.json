@@ -1,0 +1,43 @@
+{
+  "dataset": "policies",
+  "version": "1.0.0",
+  "last_updated": "2026-04-01T00:00:00Z",
+  "pricing_and_payment": {
+    "site_assessment_fee": "$150 residential, $350 commercial — credited toward installation if the project proceeds within 90 days",
+    "deposit_required": "50 percent of total installation cost due at contract signing",
+    "balance_due": "Remaining 50 percent due upon commissioning and homeowner sign-off",
+    "accepted_payment_methods": ["check", "ACH bank transfer", "credit card (3% processing fee applies to credit card payments)"],
+    "financing": "Nimbus does not offer direct financing. Third-party financing through GreenSky is available for qualified applicants on residential installations over $5,000. Nimbus assists with the application but is not the lender.",
+    "price_validity": "All written quotes are valid for 30 days from the date of issue"
+  },
+  "scheduling": {
+    "installation_season": "Year-round scheduling available, though optimal installation conditions are February through May and September through November",
+    "lead_time": "Typical lead time from signed contract to installation start is 2 to 4 weeks for residential, 4 to 8 weeks for commercial",
+    "scheduling_priority": "Maintenance plan clients receive priority scheduling for service calls and calibration visits",
+    "weather_delays": "Installation may be delayed by rain, sustained winds above 20 mph, or temperatures below 35°F. Nimbus reschedules at no additional cost within 5 business days."
+  },
+  "cancellation": {
+    "before_installation_begins": "Full deposit refund minus $150 administrative fee if cancellation occurs before any materials are ordered or ground work begins",
+    "after_materials_ordered": "Deposit refund minus actual material costs incurred. Custom-cut manifold materials are non-refundable.",
+    "after_installation_begins": "No refund on deposit. Homeowner is responsible for costs incurred to date plus site restoration to pre-installation condition.",
+    "event_rental_cancellation": "Full refund if cancelled 14+ days before event. 50 percent refund if cancelled 7-13 days before event. No refund within 7 days of event."
+  },
+  "warranty": {
+    "manifold_and_nozzles": "10-year warranty against manufacturing defects in buried manifold lines and brass nozzle assemblies",
+    "control_unit": "5-year manufacturer warranty on the chiller and pump assembly. 3-year warranty on electronic control boards and sensors.",
+    "led_lighting": "3-year warranty on LED ground wash fixtures (Premium systems only)",
+    "labor_warranty": "2-year warranty on all installation labor — Nimbus will correct any installation workmanship defect at no charge within 24 months of commissioning",
+    "exclusions": "Warranty does not cover damage caused by unauthorized modifications, third-party service, landscaping work that disturbs manifold lines, power surges, flooding, or failure to maintain the system per the recommended maintenance schedule",
+    "warranty_transfer": "Warranty is transferable to a new homeowner upon property sale. New owner must notify Nimbus within 30 days of closing to maintain warranty coverage."
+  },
+  "privacy": {
+    "data_collected": "Nimbus collects property address, homeowner contact information, site survey data, and installation records",
+    "data_usage": "Used solely for service delivery, maintenance scheduling, and warranty administration. Nimbus does not sell or share customer data with third parties.",
+    "smart_system_data": "Premium systems with app control transmit operational telemetry (runtime hours, fluid levels, temperature readings) to Nimbus for predictive maintenance purposes. Homeowners can opt out of telemetry sharing in the app settings.",
+    "photography": "Nimbus may photograph completed installations for portfolio and marketing purposes. Homeowner consent is obtained at commissioning. No interior photography. No address or homeowner name published without explicit written permission."
+  },
+  "insurance_requirements": {
+    "homeowner_notification": "Nimbus recommends that homeowners notify their homeowner's insurance provider of the fog system installation. Most policies treat it as a landscape improvement. Nimbus provides a system specification summary document for insurance purposes upon request.",
+    "commercial_clients": "Commercial venue clients must provide proof of general liability insurance with a minimum $1,000,000 per occurrence before Nimbus will install temporary or permanent commercial systems."
+  }
+}

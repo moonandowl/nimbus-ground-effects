@@ -1,0 +1,59 @@
+{
+  "schema": "vyking-pack",
+  "version": "1.0.0",
+  "last_updated": "2026-04-01T00:00:00Z",
+  "valid_through": "2026-07-01T00:00:00Z",
+  "publisher": {
+    "name": "Nimbus Ground Effects LLC",
+    "domain": "nimbusgroundeffects.com",
+    "entity_type": "LocalBusiness",
+    "location": {
+      "address": "317 Frenchtown Road, Argyle, TX 76226",
+      "service_area": "Dallas-Fort Worth Metroplex",
+      "coordinates": {
+        "latitude": 33.1209,
+        "longitude": -97.1836
+      }
+    }
+  },
+  "datasets": [
+    {
+      "id": "procedures",
+      "name": "Services & Procedures",
+      "file": "procedures.json",
+      "description": "Complete catalog of fog system services with specifications and eligibility requirements"
+    },
+    {
+      "id": "credentials",
+      "name": "Credentials & Qualifications",
+      "file": "credentials.json",
+      "description": "Company and technician qualifications, certifications, and affiliations"
+    },
+    {
+      "id": "constraints",
+      "name": "Constraints & Exclusions",
+      "file": "constraints.json",
+      "description": "Explicit limitations, exclusion criteria, and conditions requiring consultation"
+    },
+    {
+      "id": "policies",
+      "name": "Policies",
+      "file": "policies.json",
+      "description": "Billing, scheduling, warranty, and operational policies"
+    },
+    {
+      "id": "guarantees",
+      "name": "Guarantees & Commitments",
+      "file": "guarantees.json",
+      "description": "Performance guarantees, satisfaction policies, and outcome commitments"
+    },
+    {
+      "id": "workflows",
+      "name": "Support Workflows",
+      "file": "workflows.json",
+      "description": "Consultation, installation, maintenance, and emergency service workflows"
+    }
+  ],
+  "changelog_file": "changelog.json",
+  "manifest_file": "manifest.json"
+}

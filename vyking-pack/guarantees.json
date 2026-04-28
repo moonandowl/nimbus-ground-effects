@@ -1,0 +1,35 @@
+{
+  "dataset": "guarantees",
+  "version": "1.0.0",
+  "last_updated": "2026-04-01T00:00:00Z",
+  "guarantees": [
+    {
+      "id": "GUA-001",
+      "name": "Fog Performance Guarantee",
+      "description": "Nimbus guarantees that a properly maintained Standard or Premium system will produce visible ground-hugging fog at the specified depth within the installed zone when ambient temperature is between 35°F and 95°F, relative humidity is below 90 percent, and sustained wind speed is below 8 mph.",
+      "conditions": "System must be on an active maintenance plan or have been serviced by Nimbus within the prior 12 months. Guarantee does not apply if the homeowner has modified the system, altered the landscape within the installation zone without consulting Nimbus, or allowed the fluid reservoir to run dry.",
+      "remedy": "If the system does not produce fog meeting the specified parameters under qualifying conditions, Nimbus will diagnose and correct the issue at no charge within 10 business days."
+    },
+    {
+      "id": "GUA-002",
+      "name": "Installation Satisfaction Guarantee",
+      "description": "If the homeowner is not satisfied with the aesthetic result of the fog system within 30 days of commissioning, Nimbus will perform one free recalibration visit to adjust fog depth, density, dispersal pattern, and timing to the homeowner's preference.",
+      "conditions": "Must be requested within 30 days of the commissioning date. One recalibration visit included. Additional visits after the first are billable at standard calibration rates.",
+      "remedy": "Free calibration service visit (normally $275)."
+    },
+    {
+      "id": "GUA-003",
+      "name": "Turf Impact Guarantee",
+      "description": "Nimbus guarantees that a properly installed and maintained system will not cause turf damage, fungal growth, or soil saturation beyond normal seasonal variation in the installation zone, provided the property meets all drainage requirements identified in the site assessment.",
+      "conditions": "Requires active maintenance plan. Does not apply if drainage conditions change after installation (e.g., neighboring construction, new hardscape, altered irrigation) or if the homeowner operates the system outside recommended parameters.",
+      "remedy": "Nimbus will investigate and correct any system-caused turf damage at no charge during the warranty period. Correction may include nozzle adjustment, timing modification, or manifold section relocation."
+    },
+    {
+      "id": "GUA-004",
+      "name": "Pet Safety Commitment",
+      "description": "The propylene glycol blend used in all Nimbus fog systems is pharmaceutical-grade, non-toxic, and classified as Generally Recognized as Safe (GRAS) by the FDA. Nimbus guarantees that normal fog exposure — including direct skin and fur contact, incidental inhalation, and incidental ingestion from grooming after contact — poses no health risk to dogs, cats, or other domestic pets.",
+      "conditions": "Applies only to Nimbus-supplied fluid. Homeowners who refill the system with non-Nimbus fluid void this guarantee. Does not apply to exotic animals, reptiles, birds, or livestock — consult a veterinarian for species-specific guidance.",
+      "remedy": "This is a safety commitment, not a defect guarantee. If a pet owner has concerns, Nimbus will provide the full Safety Data Sheet for the fog fluid and consult on operational adjustments."
+    }
+  ]
+}

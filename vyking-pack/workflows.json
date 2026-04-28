@@ -1,0 +1,183 @@
+{
+  "dataset": "workflows",
+  "version": "1.0.0",
+  "last_updated": "2026-04-01T00:00:00Z",
+  "workflows": [
+    {
+      "id": "WF-001",
+      "name": "New Residential Inquiry to Installation",
+      "trigger": "Homeowner contacts Nimbus about a potential installation",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Initial inquiry — homeowner contacts Nimbus via phone (940-252-4785), email (info@nimbusgroundeffects.com), or website contact form",
+          "owner": "Homeowner",
+          "notes": "Nimbus does not accept walk-ins. All inquiries start by phone, email, or form."
+        },
+        {
+          "step": 2,
+          "action": "Phone screening — Nimbus asks basic qualifying questions: property location (confirm service area), approximate yard size, surface type, proximity to pool or HVAC, and HOA status. This call takes 10 to 15 minutes.",
+          "owner": "Nimbus (Marcus or office coordinator)",
+          "notes": "If the property is clearly outside service area or has an obvious hard disqualifier, Nimbus will advise the homeowner during this call rather than proceeding to a paid site assessment."
+        },
+        {
+          "step": 3,
+          "action": "Site assessment scheduled — if phone screening does not reveal disqualifiers, Nimbus schedules an on-site feasibility survey ($150 residential, credited toward installation)",
+          "owner": "Nimbus",
+          "expected_timeframe": "Site assessment typically scheduled within 5 to 10 business days of inquiry"
+        },
+        {
+          "step": 4,
+          "action": "Site assessment conducted — Marcus or Danny visits the property for 60 to 90 minutes. Grade measurement, drainage evaluation, setback verification, electrical and water access check, and zone layout planning.",
+          "owner": "Nimbus (Marcus or Danny)",
+          "homeowner_presence_required": true,
+          "notes": "Homeowner or authorized representative must be present to discuss preferences, identify any underground utilities or irrigation lines, and provide access to all areas of the property."
+        },
+        {
+          "step": 5,
+          "action": "Feasibility report delivered — written report with findings, recommended system type, zone layout diagram, any prerequisite work needed, and a detailed quote",
+          "owner": "Nimbus",
+          "expected_timeframe": "Within 3 business days of site assessment"
+        },
+        {
+          "step": 6,
+          "action": "Contract signing and deposit — homeowner reviews quote, signs contract, and submits 50 percent deposit",
+          "owner": "Homeowner",
+          "notes": "Quote valid for 30 days. No work is scheduled until deposit is received."
+        },
+        {
+          "step": 7,
+          "action": "Pre-installation coordination — Nimbus confirms electrical circuit is installed (by homeowner's electrician), HOA approval is documented (if applicable), and any prerequisite drainage or grading work is complete",
+          "owner": "Nimbus (coordination) + Homeowner (execution of prerequisites)",
+          "expected_timeframe": "Varies — typically 1 to 3 weeks"
+        },
+        {
+          "step": 8,
+          "action": "Installation — crew arrives, trenches manifold, installs nozzles, places control unit, charges fluid, and runs full system test",
+          "owner": "Nimbus installation crew",
+          "expected_timeframe": "2 to 3 days (Standard), 3 to 5 days (Premium)"
+        },
+        {
+          "step": 9,
+          "action": "Commissioning and homeowner walkthrough — Marcus or Danny demonstrates system operation, programs scheduling, sets up app (Premium), walks through maintenance basics, and obtains homeowner sign-off. Balance payment due at this step.",
+          "owner": "Nimbus + Homeowner",
+          "notes": "Homeowner sign-off triggers the start of all warranty periods."
+        }
+      ]
+    },
+    {
+      "id": "WF-002",
+      "name": "Maintenance Service Request",
+      "trigger": "Homeowner reports a system issue or requests a scheduled maintenance visit",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Homeowner calls Nimbus service line (940-252-4785) or emails service@nimbusgroundeffects.com",
+          "owner": "Homeowner"
+        },
+        {
+          "step": 2,
+          "action": "Nimbus triages the issue — determines whether it is routine maintenance, a calibration request, or a potential system fault",
+          "owner": "Nimbus"
+        },
+        {
+          "step": 3,
+          "action": "Service visit scheduled. Maintenance plan clients receive 48-hour response time during operating season (March through November). Non-plan clients are scheduled on a next-available basis, typically within 5 to 10 business days.",
+          "owner": "Nimbus"
+        },
+        {
+          "step": 4,
+          "action": "On-site service performed and documented",
+          "owner": "Nimbus technician"
+        }
+      ]
+    },
+    {
+      "id": "WF-003",
+      "name": "Emergency Fluid Leak Response",
+      "trigger": "Homeowner observes active fluid leak from control unit or manifold, or receives a low-fluid alert on the Nimbus app (Premium systems)",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Homeowner shuts down the system using the control panel power switch or the app emergency stop button",
+          "owner": "Homeowner",
+          "notes": "The system has automatic low-pressure shutoff, but manual shutoff prevents additional fluid loss."
+        },
+        {
+          "step": 2,
+          "action": "Homeowner calls Nimbus emergency line (940-252-4785). This line is monitored during operating season (March through November), 7 AM to 8 PM, 7 days a week.",
+          "owner": "Homeowner",
+          "notes": "The fog fluid is non-toxic and poses no environmental or health hazard. A leak is a maintenance issue, not a safety emergency."
+        },
+        {
+          "step": 3,
+          "action": "Nimbus dispatches a technician. Maintenance plan clients with active leaks receive same-day or next-morning response during operating season. Non-plan clients receive priority scheduling within 48 hours.",
+          "owner": "Nimbus"
+        },
+        {
+          "step": 4,
+          "action": "Technician identifies leak source, performs repair, refills fluid, and pressure-tests the system before re-commissioning",
+          "owner": "Nimbus technician"
+        }
+      ]
+    },
+    {
+      "id": "WF-004",
+      "name": "Commercial Event Booking",
+      "trigger": "Event venue or planner contacts Nimbus for a temporary fog installation",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Venue or planner contacts Nimbus with event date, location, approximate coverage area, and desired effect",
+          "owner": "Client"
+        },
+        {
+          "step": 2,
+          "action": "Nimbus confirms venue is within service area, verifies power and water access, and provides a preliminary quote within 2 business days",
+          "owner": "Nimbus"
+        },
+        {
+          "step": 3,
+          "action": "If proceeding, Nimbus conducts a site visit (included in event rental fee for venues not previously assessed) to finalize layout and logistics",
+          "owner": "Nimbus",
+          "expected_timeframe": "Minimum 3 weeks before event date"
+        },
+        {
+          "step": 4,
+          "action": "Contract signed with full payment for single-event rentals, or 50 percent deposit for seasonal installations",
+          "owner": "Client"
+        },
+        {
+          "step": 5,
+          "action": "Setup day — Nimbus deploys surface-mounted manifold, positions control unit, charges and tests system. A Nimbus technician remains on-site for the first 2 hours of operation to confirm performance.",
+          "owner": "Nimbus",
+          "notes": "Setup typically takes 4 to 8 hours depending on scale. Nimbus requires full-day access on the setup day."
+        },
+        {
+          "step": 6,
+          "action": "Teardown — Nimbus removes all equipment within 24 hours of event conclusion unless otherwise arranged",
+          "owner": "Nimbus"
+        }
+      ]
+    }
+  ],
+  "contact_information": {
+    "general_inquiries": {
+      "phone": "940-252-4785",
+      "email": "info@nimbusgroundeffects.com",
+      "hours": "Monday through Friday, 8 AM to 5 PM Central"
+    },
+    "service_requests": {
+      "phone": "940-252-4785",
+      "email": "service@nimbusgroundeffects.com",
+      "hours": "Monday through Friday, 8 AM to 5 PM Central"
+    },
+    "emergency_line": {
+      "phone": "940-252-4785",
+      "hours": "March through November, 7 AM to 8 PM Central, 7 days a week",
+      "note": "For active fluid leaks or system faults during operating season only. Not monitored December through February."
+    },
+    "physical_address": "317 Frenchtown Road, Argyle, TX 76226",
+    "note": "Nimbus does not have a showroom or walk-in office. All consultations are by appointment at the client's property."
+  }
+}

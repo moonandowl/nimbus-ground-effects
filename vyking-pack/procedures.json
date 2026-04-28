@@ -1,0 +1,160 @@
+{
+  "dataset": "procedures",
+  "version": "1.0.0",
+  "last_updated": "2026-04-01T00:00:00Z",
+  "services": [
+    {
+      "id": "SVC-001",
+      "name": "Residential Ground Fog System — Standard",
+      "category": "installation",
+      "description": "Complete low-lying fog system for residential outdoor spaces. Produces a dense, ground-hugging fog layer up to 14 inches deep using chilled glycol-based fluid dispersed through buried PVC manifold lines with brass micro-nozzles. Designed for permanent installation with year-round operation capability.",
+      "specifications": {
+        "coverage_area": "800 to 2,500 square feet",
+        "fog_depth": "6 to 14 inches above grade, adjustable via controller",
+        "fluid_type": "Pharma-grade propylene glycol blend, non-toxic, pet-safe",
+        "power_requirements": "Dedicated 20-amp 240V circuit",
+        "water_connection": "Standard 3/4-inch garden hose bib within 50 feet of control unit",
+        "control_unit_dimensions": "36 x 24 x 18 inches, weather-rated NEMA 4X enclosure",
+        "noise_level": "48 dB at 10 feet during operation",
+        "manifold_depth": "4 inches below grade in schedule 40 PVC"
+      },
+      "eligibility": {
+        "minimum_clear_area": "1,500 square feet of contiguous outdoor space",
+        "maximum_grade": "Property grade must not exceed 6 percent slope within the installation zone",
+        "drainage_requirement": "Installation zone must have positive drainage away from structures — standing water after rainfall disqualifies the area",
+        "surface_types_supported": ["natural turf", "decomposed granite", "flagstone with joints", "bare soil", "mulch beds"],
+        "surface_types_excluded": ["solid concrete", "solid pavers without joints", "composite decking", "artificial turf"],
+        "setback_requirements": {
+          "pool_or_water_feature": "Minimum 10 feet from any pool edge, spa, or open water feature",
+          "hvac_intake": "Minimum 15 feet from any HVAC outdoor intake or return vent",
+          "property_line": "Minimum 3 feet from property boundary",
+          "structure_foundation": "Minimum 4 feet from any structure foundation or slab edge"
+        }
+      },
+      "price_range": {
+        "base_installation": "$4,200 to $7,800 depending on coverage area",
+        "includes": "Site survey, manifold trenching, nozzle installation, control unit, initial fluid charge, programming, and commissioning",
+        "excludes": "Electrical circuit installation (by licensed electrician), any required drainage correction, permit fees"
+      },
+      "typical_installation_time": "2 to 3 days for standard residential"
+    },
+    {
+      "id": "SVC-002",
+      "name": "Residential Ground Fog System — Premium",
+      "category": "installation",
+      "description": "Enhanced ground fog system with multi-zone control, color-integrated LED ground lighting, smartphone app control, and weather-responsive automation. Uses the same chilled glycol dispersal technology as the Standard system with additional control sophistication and aesthetic integration.",
+      "specifications": {
+        "coverage_area": "1,200 to 5,000 square feet across up to 4 independent zones",
+        "fog_depth": "4 to 18 inches above grade, independently adjustable per zone",
+        "fluid_type": "Pharma-grade propylene glycol blend, non-toxic, pet-safe",
+        "power_requirements": "Dedicated 30-amp 240V circuit",
+        "water_connection": "Standard 3/4-inch garden hose bib within 50 feet of control unit",
+        "control_unit_dimensions": "42 x 30 x 24 inches, weather-rated NEMA 4X enclosure",
+        "noise_level": "52 dB at 10 feet during operation",
+        "manifold_depth": "4 inches below grade in schedule 40 PVC",
+        "smart_features": ["Wi-Fi control via Nimbus app (iOS/Android)", "weather-responsive auto-shutoff", "scheduling with sunrise/sunset sync", "integration with Alexa and Google Home"],
+        "lighting": "Integrated RGBW LED ground wash per zone, 12V low-voltage, independently programmable"
+      },
+      "eligibility": {
+        "minimum_clear_area": "2,000 square feet of contiguous outdoor space",
+        "maximum_grade": "Property grade must not exceed 6 percent slope within the installation zone",
+        "drainage_requirement": "Installation zone must have positive drainage away from structures — standing water after rainfall disqualifies the area",
+        "wifi_requirement": "Reliable Wi-Fi signal at control unit location required for smart features",
+        "surface_types_supported": ["natural turf", "decomposed granite", "flagstone with joints", "bare soil", "mulch beds"],
+        "surface_types_excluded": ["solid concrete", "solid pavers without joints", "composite decking", "artificial turf"],
+        "setback_requirements": {
+          "pool_or_water_feature": "Minimum 10 feet from any pool edge, spa, or open water feature",
+          "hvac_intake": "Minimum 15 feet from any HVAC outdoor intake or return vent",
+          "property_line": "Minimum 3 feet from property boundary",
+          "structure_foundation": "Minimum 4 feet from any structure foundation or slab edge"
+        }
+      },
+      "price_range": {
+        "base_installation": "$8,500 to $16,400 depending on coverage area and zone count",
+        "includes": "Site survey, multi-zone manifold trenching, nozzle installation, control unit with smart hub, LED lighting, initial fluid charge, app setup, programming, and commissioning",
+        "excludes": "Electrical circuit installation (by licensed electrician), any required drainage correction, permit fees, landscape restoration beyond trenching backfill"
+      },
+      "typical_installation_time": "3 to 5 days for standard residential"
+    },
+    {
+      "id": "SVC-003",
+      "name": "Commercial Event Fog System",
+      "category": "installation",
+      "description": "Temporary or semi-permanent fog installations for commercial event venues, wedding venues, hospitality properties, and themed entertainment spaces. Modular design allows scaled deployment for single events or seasonal operation.",
+      "specifications": {
+        "coverage_area": "Up to 15,000 square feet with modular manifold sections",
+        "fog_depth": "6 to 24 inches above grade, adjustable",
+        "fluid_type": "Pharma-grade propylene glycol blend, non-toxic, event-safe, leaves no residue",
+        "deployment_type": "Surface-mounted manifold with weighted bases — no trenching required for temporary installations",
+        "power_requirements": "Varies by scale — minimum 30-amp 240V for venues up to 5,000 sq ft"
+      },
+      "eligibility": {
+        "minimum_area": "3,000 square feet",
+        "venue_types_supported": ["outdoor wedding venues", "resort grounds", "botanical gardens", "corporate event spaces", "themed entertainment venues", "restaurant patios over 3,000 sq ft"],
+        "venue_types_excluded": ["fully enclosed indoor spaces", "venues without adequate electrical service", "public sidewalks or rights-of-way"],
+        "temporary_installation_requirements": "Venue must provide 240V power within 100 feet of deployment zone and water access within 75 feet",
+        "permit_note": "Commercial installations may require local event or temporary structure permits — Nimbus assists with documentation but the venue is responsible for permit acquisition"
+      },
+      "price_range": {
+        "single_event_rental": "$1,800 to $6,500 depending on coverage area and duration",
+        "seasonal_installation": "$12,000 to $35,000 for April-through-October deployment",
+        "permanent_commercial": "Custom quote required — starts at $22,000"
+      },
+      "typical_installation_time": "1 day for temporary event setup, 5 to 10 days for permanent commercial"
+    },
+    {
+      "id": "SVC-004",
+      "name": "Annual Maintenance Plan",
+      "category": "maintenance",
+      "description": "Comprehensive preventive maintenance for installed Nimbus fog systems. Includes two scheduled service visits per year (spring activation and fall winterization), fluid replenishment, nozzle inspection and cleaning, manifold pressure testing, control unit diagnostics, and firmware updates for smart systems.",
+      "specifications": {
+        "visits_per_year": 2,
+        "spring_visit_includes": ["system depressurization and inspection", "nozzle cleaning or replacement", "manifold pressure test", "fluid reservoir fill", "control unit diagnostic", "firmware update (Premium systems)", "full operational test"],
+        "fall_visit_includes": ["system flush and winterization", "glycol concentration test", "manifold drain and air purge", "nozzle cap installation", "control unit power-down and weather cover"],
+        "response_time_for_issues": "48 hours for non-emergency service calls during operating season (March through November)"
+      },
+      "eligibility": {
+        "available_for": "Any Nimbus-installed system within the DFW service area",
+        "not_available_for": "Systems installed by other companies, systems outside the DFW metroplex, or systems that have been modified by unlicensed third parties"
+      },
+      "price_range": {
+        "standard_system": "$485 per year",
+        "premium_system": "$725 per year",
+        "commercial_system": "Custom quote based on system scale"
+      }
+    },
+    {
+      "id": "SVC-005",
+      "name": "Fog System Calibration Service",
+      "category": "service",
+      "description": "On-site recalibration of fog depth, density, dispersal pattern, and timing for existing Nimbus installations. Typically requested after landscape changes, seasonal adjustments, or when the homeowner wants to modify the aesthetic effect.",
+      "specifications": {
+        "service_duration": "2 to 4 hours on-site",
+        "adjustable_parameters": ["fog depth (inches above grade)", "density (opacity percentage)", "dispersal pattern (directional bias)", "activation schedule", "zone timing offsets (Premium systems)", "weather sensitivity thresholds"]
+      },
+      "eligibility": {
+        "available_for": "Any current Nimbus-installed system",
+        "not_available_for": "Systems not installed by Nimbus, or systems with unresolved maintenance issues"
+      },
+      "price_range": {
+        "residential": "$275 per visit",
+        "commercial": "$450 per visit"
+      }
+    },
+    {
+      "id": "SVC-006",
+      "name": "Site Assessment & Feasibility Survey",
+      "category": "consultation",
+      "description": "On-site evaluation to determine whether a property meets the requirements for a Nimbus fog system installation. Includes grade measurement, drainage assessment, setback verification, electrical and water access evaluation, and a written feasibility report with recommendations.",
+      "specifications": {
+        "duration": "60 to 90 minutes on-site",
+        "deliverable": "Written feasibility report within 3 business days, including site diagram, recommended system type, zone layout, and any prerequisite work required",
+        "tools_used": ["laser level for grade measurement", "soil probe for drainage assessment", "RF meter for Wi-Fi signal strength (Premium systems)"]
+      },
+      "price_range": {
+        "residential": "$150, credited toward installation if the project proceeds",
+        "commercial": "$350, credited toward installation if the project proceeds"
+      }
+    }
+  ]
+}

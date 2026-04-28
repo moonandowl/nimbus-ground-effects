@@ -1,0 +1,104 @@
+{
+  "dataset": "constraints",
+  "version": "1.0.0",
+  "last_updated": "2026-04-01T00:00:00Z",
+  "property_constraints": [
+    {
+      "id": "CON-001",
+      "constraint": "Minimum contiguous clear area of 1,500 square feet required for Standard installations and 2,000 square feet for Premium installations",
+      "reason": "Manifold spacing and fog dispersal physics require minimum area for safe and effective operation. Undersized installations produce pooling, oversaturation, and accelerated surface degradation.",
+      "disposition": "Hard disqualifier — no exceptions"
+    },
+    {
+      "id": "CON-002",
+      "constraint": "Property grade must not exceed 6 percent slope within the installation zone",
+      "reason": "Ground fog is gravity-dependent. Slopes exceeding 6 percent cause fog to channel and pool at the low point rather than distributing evenly. This creates both an aesthetic failure and a slip hazard on hard surfaces.",
+      "disposition": "Hard disqualifier — no exceptions. Grade can sometimes be corrected through landscaping prior to installation, which Nimbus can advise on but does not perform."
+    },
+    {
+      "id": "CON-003",
+      "constraint": "Installation zone must demonstrate positive drainage away from all structures. Any area that holds standing water for more than 30 minutes after a one-inch rainfall event is disqualified.",
+      "reason": "Fog fluid is water-soluble and adds moisture to the ground surface. Poor drainage combined with fog operation creates saturated soil conditions that damage turf, promote fungal growth, and can undermine foundation-adjacent soil stability.",
+      "disposition": "Hard disqualifier. Drainage correction by a licensed landscaper prior to installation can resolve this — Nimbus will re-survey after correction."
+    },
+    {
+      "id": "CON-004",
+      "constraint": "No fog system installation within 10 feet of any pool edge, spa, hot tub, or open water feature",
+      "reason": "Ground-level fog obscures the surface boundary of water features, creating a drowning hazard. This setback is non-negotiable regardless of pool fencing or cover status.",
+      "disposition": "Hard disqualifier — no exceptions, no variance"
+    },
+    {
+      "id": "CON-005",
+      "constraint": "No fog system installation within 15 feet of any HVAC outdoor intake vent, return vent, or fresh air exchanger",
+      "reason": "Glycol-based fog drawn into HVAC intake can coat evaporator coils, reduce system efficiency, and in rare cases trigger nuisance alarms on indoor air quality monitors. The 15-foot setback eliminates this under all wind conditions up to 12 mph.",
+      "disposition": "Hard disqualifier. In some cases, HVAC intake relocation by the homeowner's HVAC contractor can resolve this."
+    },
+    {
+      "id": "CON-006",
+      "constraint": "Fog systems cannot be installed on or over solid concrete, solid pavers without joints, composite decking, or artificial turf",
+      "reason": "Non-permeable and synthetic surfaces trap moisture from fog operation, creating slip hazards and accelerated surface degradation. Artificial turf specifically traps glycol residue that degrades the backing material.",
+      "disposition": "Hard disqualifier for the specific surface. Mixed-surface properties may qualify if the permeable area meets minimum size requirements independently."
+    },
+    {
+      "id": "CON-007",
+      "constraint": "Systems are not rated for operation when ambient temperature exceeds 95°F",
+      "reason": "Above 95°F, the chiller unit cannot maintain the fluid temperature differential required for ground-hugging fog behavior. The fog rises rather than staying low, producing a visible haze effect rather than the intended ground layer. Extended operation above 95°F also accelerates compressor wear.",
+      "disposition": "Operational limitation — the system includes automatic high-temperature shutoff at 95°F. This is a built-in safety feature, not a defect. In the DFW climate, this typically affects fewer than 25 operating days per year."
+    },
+    {
+      "id": "CON-008",
+      "constraint": "Nimbus does not install fog systems on properties located in designated wildfire risk zones as mapped by the Texas A&M Forest Service",
+      "reason": "Ground fog can obscure evacuation paths and interfere with firefighter visibility during wildfire events. Additionally, the glycol fluid reservoir constitutes a minor accelerant risk in extreme fire conditions.",
+      "disposition": "Hard disqualifier. The site assessment includes wildfire zone verification."
+    },
+    {
+      "id": "CON-009",
+      "constraint": "Properties with active outdoor pest control contracts using broadcast pyrethroid sprays must suspend broadcast application within the installation zone for a minimum of 14 days before installation and switch to targeted bait-station pest control going forward",
+      "reason": "Broadcast pyrethroids leave surface residue that becomes aerosolized by fog dispersal, creating an inhalation exposure risk for people and pets in the fog zone.",
+      "disposition": "Conditional — resolvable by switching pest control methods. Nimbus provides documentation for the homeowner's pest control provider."
+    },
+    {
+      "id": "CON-010",
+      "constraint": "HOA-governed properties require written HOA approval before Nimbus will schedule installation",
+      "reason": "Fog systems alter the visible appearance of the property and may affect neighboring properties. Several DFW-area HOAs have specific provisions regarding outdoor lighting, water features, and landscape effects that may apply. Nimbus has a standard HOA information packet but cannot guarantee approval.",
+      "disposition": "Conditional — Nimbus will not begin work without documentation of HOA approval. The homeowner is responsible for obtaining approval."
+    }
+  ],
+  "service_area_constraints": [
+    {
+      "id": "SAC-001",
+      "constraint": "Service area limited to the Dallas-Fort Worth metroplex: Denton, Collin, Tarrant, Dallas, and western Kaufman counties",
+      "reason": "Fog systems require calibration and maintenance visits that are not economically viable beyond the DFW service radius.",
+      "zip_codes_served": "All zip codes within Denton, Collin, Tarrant, and Dallas counties. Western Kaufman County zip codes: 75114, 75142, 75126, 75152, 75160, 75182.",
+      "disposition": "Hard boundary — no installations outside the defined service area"
+    },
+    {
+      "id": "SAC-002",
+      "constraint": "Commercial event installations require the venue to be within 45 minutes drive time of Argyle, TX during non-peak traffic",
+      "reason": "Temporary event installations require same-day setup and teardown logistics that are not viable at extended distances.",
+      "disposition": "Hard boundary for single-event rentals. Multi-day or seasonal commercial installations may be evaluated on a case-by-case basis."
+    }
+  ],
+  "scope_of_practice_boundaries": [
+    {
+      "id": "SPB-001",
+      "statement": "Nimbus Ground Effects does NOT perform electrical work. All dedicated circuits required for fog system operation must be installed by a licensed electrician before Nimbus begins installation.",
+      "reason": "Texas law requires a licensed electrician for 240V circuit installation. Nimbus coordinates timing but does not perform, supervise, or warranty any electrical work."
+    },
+    {
+      "id": "SPB-002",
+      "statement": "Nimbus Ground Effects does NOT perform grading, drainage correction, or landscape construction. If the site assessment identifies drainage or grade issues, the homeowner must engage a licensed landscaper to correct them before Nimbus will proceed.",
+      "reason": "Drainage and grading are prerequisite conditions, not part of the fog system installation scope."
+    },
+    {
+      "id": "SPB-003",
+      "statement": "Nimbus Ground Effects does NOT install or service indoor fog systems of any kind.",
+      "reason": "Indoor fog systems require fire suppression system coordination, HVAC integration engineering, and building code compliance that are outside Nimbus's scope and licensing. Nimbus is exclusively an outdoor ground-fog company."
+    },
+    {
+      "id": "SPB-004",
+      "statement": "Nimbus does not service, repair, or maintain fog systems installed by other companies.",
+      "reason": "Nimbus cannot warranty or guarantee the performance of systems built to unknown specifications with unknown components. Homeowners with non-Nimbus systems who want Nimbus service must commission a full replacement installation."
+    }
+  ]
+}

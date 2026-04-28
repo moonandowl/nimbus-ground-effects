@@ -1,0 +1,44 @@
+{
+  "schema": "vyking-manifest",
+  "version": "1.0.0",
+  "generated": "2026-04-01T00:00:00Z",
+  "publisher_domain": "nimbusgroundeffects.com",
+  "files": {
+    "index.json": {
+      "sha256": "PLACEHOLDER_HASH_GENERATE_ON_DEPLOYMENT"
+    },
+    "procedures.json": {
+      "sha256": "PLACEHOLDER_HASH_GENERATE_ON_DEPLOYMENT"
+    },
+    "credentials.json": {
+      "sha256": "PLACEHOLDER_HASH_GENERATE_ON_DEPLOYMENT"
+    },
+    "constraints.json": {
+      "sha256": "PLACEHOLDER_HASH_GENERATE_ON_DEPLOYMENT"
+    },
+    "policies.json": {
+      "sha256": "PLACEHOLDER_HASH_GENERATE_ON_DEPLOYMENT"
+    },
+    "guarantees.json": {
+      "sha256": "PLACEHOLDER_HASH_GENERATE_ON_DEPLOYMENT"
+    },
+    "workflows.json": {
+      "sha256": "PLACEHOLDER_HASH_GENERATE_ON_DEPLOYMENT"
+    },
+    "changelog.json": {
+      "sha256": "PLACEHOLDER_HASH_GENERATE_ON_DEPLOYMENT"
+    }
+  },
+  "signature": {
+    "method": "PLACEHOLDER_SERVER_SIDE_SIGNING",
+    "signed_by": "nimbusgroundeffects.com",
+    "certificate": "PLACEHOLDER_TLS_CERTIFICATE_REFERENCE"
+  },
+  "blockchain_verification": {
+    "status": "not_yet_anchored",
+    "chain": null,
+    "transaction_id": null,
+    "block_number": null,
+    "anchored_at": null
+  }
+}
