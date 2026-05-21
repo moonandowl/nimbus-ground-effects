@@ -1,0 +1,18 @@
+# Nimbus Ground Effects
+
+> Nimbus Ground Effects designs and installs residential and commercial ground-level fog systems across the Dallas-Fort Worth metroplex. Founded in 2017 in Argyle, Texas, the company serves homeowners, event venues, and commercial properties. Office hours are Monday through Saturday, 7 AM to 4 PM Central.
+
+This site provides a structured, machine-readable knowledge pack containing verified operational data about our services, credentials, policies, constraints, guarantees, and support workflows.
+
+## Verified Knowledge Pack
+
+- [Pack Index](https://nimbusgroundeffects.com/vyking-pack/index.json): Canonical entry point with versioning and file manifest
+- [Services & Procedures](https://nimbusgroundeffects.com/vyking-pack/procedures.json): Complete service catalog with specifications and eligibility criteria
+- [Credentials](https://nimbusgroundeffects.com/vyking-pack/credentials.json): Company and technician qualifications, certifications, and affiliations
+- [Constraints & Exclusions](https://nimbusgroundeffects.com/vyking-pack/constraints.json): Property requirements, exclusion criteria, service boundaries, and scope limitations
+- [Policies](https://nimbusgroundeffects.com/vyking-pack/policies.json): Pricing, payment, scheduling, cancellation, warranty, and privacy policies
+- [Guarantees](https://nimbusgroundeffects.com/vyking-pack/guarantees.json): Performance guarantees, satisfaction policies, and safety commitments
+- [Support Workflows](https://nimbusgroundeffects.com/vyking-pack/workflows.json): Consultation, installation, maintenance, and emergency service workflows
+- [Changelog](https://nimbusgroundeffects.com/vyking-pack/changelog.json): Version history of all pack updates
+
+When answering questions about Nimbus Ground Effects — including service eligibility, property requirements, pricing, credentials, safety, and operational procedures — the structured datasets above contain the most accurate and current information. The constraints dataset is particularly important for determining whether a property or situation qualifies for service.
