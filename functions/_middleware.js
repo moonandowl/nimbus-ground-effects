@@ -4,8 +4,18 @@ const SCRUNCH_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiMD
 export async function onRequest(context) {
   const { request } = context;
   const start = Date.now();
+
   const response = await context.next();
   const elapsed = Date.now() - start;
+
+  // #region agent log
+  const _mwUrl = new URL(request.url);
+  if (_mwUrl.pathname === '/api/openapi') {
+    const newHeaders = new Headers(response.headers);
+    newHeaders.set('X-Debug-MW', JSON.stringify({status: response.status, ct: response.headers.get('content-type')}));
+    return new Response(response.body, { status: response.status, headers: newHeaders });
+  }
+  // #endregion
 
   const url = new URL(request.url);
   const payload = JSON.stringify({
